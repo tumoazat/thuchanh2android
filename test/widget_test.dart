@@ -12,6 +12,6 @@ import 'package:baitaptrenlop/main.dart';
 void main() {
   testWidgets('App smoke test', (WidgetTester tester) async {
     await tester.pumpWidget(const SmartNoteApp());
-    expect(find.text('Smart Note - Tú Mõ Azat - SV001'), findsOneWidget);
+    expect(find.text('Smart Note - LE MINH TU -2351160562'), findsOneWidget);
   });
 }
